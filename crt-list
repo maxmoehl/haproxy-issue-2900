@@ -1,0 +1,3 @@
+/usr/local/etc/haproxy/tls.pem [verify none] !*
+/usr/local/etc/haproxy/tls.pem [ca-file /usr/local/etc/haproxy/ca.crt.pem verify optional] *.one.example.com
+/usr/local/etc/haproxy/tls.pem [ca-file /usr/local/etc/haproxy/ca.crt.pem verify optional] *.two.example.com
